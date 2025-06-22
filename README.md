@@ -1,0 +1,2 @@
+# obsidian-infobox
+ 类Wikimedia的Infobox，因为发现obisidian官方没有这种插件就手搓了一个，有空会试着重构尝试pr到官方
