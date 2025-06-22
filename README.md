@@ -32,13 +32,15 @@
    1. 如仓库名为 Memo，则路径为: `Obsidian安装目录/Memo/.obsidian/plugins/`
 3. 在此目录下新建一个文件夹（例如，命名为 `obsidian-infobox`），将压缩包解压后得到的 `main.js`、`styles.css`、`manifest.json` 三个文件放入这个新创建的文件夹中。
    解压后你的目录结构应该如下：
+
    ```
    Obsidian安装目录/Memo/.obsidian/plugins/
     └── obsidian-infobox/
-    ├── main.js
-    ├── styles.css
-    └── manifest.json
+         ├── main.js
+         ├── styles.css
+         └── manifest.json
    ```
+
 4. Obsidian进入 `设置` -> `第三方插件`，点击 `点击刷新插件` 按钮，找到这个新文件夹并启用它。
 
 ---
@@ -87,6 +89,7 @@
 ### 如何让 AI 帮你定制样式？
 
 如果你不熟悉 CSS，可以借助 AI（如 Claude、ChatGPT 等，建议 Claude）来帮你修改样式。
+
 1. 截图并上传自己的 Obsidian 主题的截图
 2. 上传插件文件夹中的样式文件 `styles.css`
 3. 可以考虑使用如下 Prompt
