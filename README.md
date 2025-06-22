@@ -27,10 +27,18 @@
 
 本插件为个人项目，未在官方插件市场上架。请通过以下步骤手动安装：
 
-1. 下载本项目的所有源码。
+1. 从本项目的 [**Releases**](https://github.com/shirumesu/obsidian-infobox/releases) 页面下载最新的发行版压缩包（`obsidian-infobox.zip`）。
 2. 在你的 Obsidian Vault（仓库）中，找到 `.obsidian/plugins/` 目录（也可以透过Obsidian中`设置` -> `第三方插件`进入）
    1. 如仓库名为 Memo，则路径为: `Obsidian安装目录/Memo/.obsidian/plugins/`
-3. 在此目录下新建一个文件夹，将`main.js`、`styles.css`、`manifest.json`三个文件放入新创建的文件夹中。
+3. 在此目录下新建一个文件夹（例如，命名为 `obsidian-infobox`），将压缩包解压后得到的 `main.js`、`styles.css`、`manifest.json` 三个文件放入这个新创建的文件夹中。
+   解压后你的目录结构应该如下：
+   ```
+   Obsidian安装目录/Memo/.obsidian/plugins/
+    └── obsidian-infobox/
+    ├── main.js
+    ├── styles.css
+    └── manifest.json
+   ```
 4. Obsidian进入 `设置` -> `第三方插件`，点击 `点击刷新插件` 按钮，找到这个新文件夹并启用它。
 
 ---
