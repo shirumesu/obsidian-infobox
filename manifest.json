@@ -1,0 +1,10 @@
+{
+  "id": "infobox",
+  "name": "Infobox",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.6",
+  "description": "在Obsidian中以wiki风格显示信息框（infobox）",
+  "author": "Shiying",
+  "authorUrl": "",
+  "isDesktopOnly": false
+}
